@@ -18,7 +18,6 @@ $ git branch -M main*
 Agora, adicione o arquivo “index.html” e realize um commit.
 
 *$ touch index.html*
-
 *$ git add index.html
 $ git commit -m "Commit inicial"*
 --------------------------------------------------------------------------------------------------
