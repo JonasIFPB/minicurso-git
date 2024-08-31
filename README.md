@@ -170,3 +170,70 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
   ```
 
 --------------------------------------------------------------------------------------------------
+
+- Para visualizarmos o histórico de mudanças feitas, podemos utilizar o comando git log.
+  ```bash
+    $ git log
+​```
+- A saída do comando acima deve ser como se segue.
+```bash
+    commit 7f57b283aefce8edf5a77ae251de6c0627ee2899 (HEAD -> main)
+    
+    Author: Seu Nome <seu_nome@exemplo.com>
+    
+    Date:   Wed Oct 18 21:53:37 2023 -0300
+    
+        Mudar a cor da variável --random-color no arquivo styles.css
+    
+    commit 47783aee887420c2ae23fc7198a4d607080956f8
+    Author: Seu Nome <seu_nome@exemplo.com>
+    Date:   Wed Oct 18 21:37:15 2023 -0300
+ 
+    Adicionando a estrutura do index.html e colocando uma folha de estilo por meio do styles.css
+
+    commit dd246268e695530d154a2350ccccc1371301a97e
+    Author: Seu Nome <seu_nome@exemplo.com>
+    Date:   Wed Oct 18 21:07:13 2023 -0300
+    
+        commit inicial
+    ​```
+- Para uma saída mais compacta, utilize tal comando acompanhado da flag --pretty=oneline.
+```bash
+    $ git log --pretty=oneline
+
+    7f57b283aefce8edf5a77ae251de6c0627ee2899 (HEAD -> main) Mudar a cor da variável --random-color no arquivo styles.css
+    47783aee887420c2ae23fc7198a4d607080956f8 Adicionando a estrutura do index.html e colocando uma folha de estilo por meio do styles.css
+    dd246268e695530d154a2350ccccc1371301a97e commit inicial
+    ```
+
+--------------------------------------------------------------------------------------------------
+
+- Modifique o arquivo “styles.css” adicionando o seguinte comentário desnecessário nele.
+
+/* Este comentário não deveria estar aqui */
+​
+- Em seguida verifique o estado do repositório
+```bash
+    $ git status
+    On branch main
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git restore <file>..." to discard changes in working directory)
+    	modified:   styles.css
+    
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+    ​
+- Agora use este comando para substituir a versão atual do arquivo hello.rb no diretório de trabalho pelo estado do último commit no seu repositório Git.
+```bash
+    git checkout styles.css
+    Updated 1 path from the index
+​
+- Em seguida verifique o estado do repositório.
+```bash
+    git status
+    On branch main
+    nothing to commit, working tree clean
+    ```
+
+--------------------------------------------------------------------------------------------------
