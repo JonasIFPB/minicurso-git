@@ -32,8 +32,7 @@ Verifique o status do repositório criado.
 
 *$ git status*
 
-On branch main
-
+*On branch main
 nothing to commit, working tree clean*
 
 Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para commitar.
