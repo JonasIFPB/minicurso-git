@@ -244,5 +244,6 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     On branch main
     nothing to commit, working tree clean
     ```
+```
 
 --------------------------------------------------------------------------------------------------
