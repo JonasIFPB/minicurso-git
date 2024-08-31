@@ -197,6 +197,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     
         commit inicial
     ​```
+
 - Para uma saída mais compacta, utilize tal comando acompanhado da flag --pretty=oneline.
 ```bash
     $ git log --pretty=oneline
@@ -213,6 +214,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 /* Este comentário não deveria estar aqui */
 ​
 - Em seguida verifique o estado do repositório
+
 ```bash
     $ git status
     On branch main
@@ -230,6 +232,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     Updated 1 path from the index
 ​    ```
 - Em seguida verifique o estado do repositório.
+
 ```bash
     git status
     On branch main
