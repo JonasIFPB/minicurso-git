@@ -174,7 +174,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 - Para visualizarmos o histórico de mudanças feitas, podemos utilizar o comando git log.
   ```bash
     $ git log
-​    ```
+​  
 - A saída do comando acima deve ser como se segue.
   
 ```bash
