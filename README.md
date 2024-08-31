@@ -120,7 +120,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 
 - Agora, é hora de adicionar mais um arquivo. Para isso, crie um arquivo conforme o comando abaixo.
     ```bash
-    $ touch styles.css
+        $ touch styles.css
     ```
 ​
 - Feito isso, abra o arquivo criado anteriormente no Visual Studio Code e insira a folha de estilos abaixo dentro dele.
@@ -174,6 +174,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 - Para visualizarmos o histórico de mudanças feitas, podemos utilizar o comando git log.
   ```bash
     $ git log
+  ```
 ​  
 - A saída do comando acima deve ser como se segue.
   
@@ -198,7 +199,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     Date:   Wed Oct 18 21:07:13 2023 -0300
     
         commit inicial
-
+        ```
 
 
 - Para uma saída mais compacta, utilize tal comando acompanhado da flag --pretty=oneline.
@@ -235,6 +236,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     git checkout styles.css
     Updated 1 path from the index
 ​    ```
+
 - Em seguida verifique o estado do repositório.
 
 ```bash
