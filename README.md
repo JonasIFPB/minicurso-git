@@ -199,7 +199,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
     
         commit inicial
 
-​    ```
+
 
 - Para uma saída mais compacta, utilize tal comando acompanhado da flag --pretty=oneline.
 ```bash
