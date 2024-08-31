@@ -174,7 +174,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 - Para visualizarmos o histórico de mudanças feitas, podemos utilizar o comando git log.
   ```bash
     $ git log
-​```
+​    ```
 - A saída do comando acima deve ser como se segue.
 ```bash
     commit 7f57b283aefce8edf5a77ae251de6c0627ee2899 (HEAD -> main)
@@ -228,7 +228,7 @@ Como não há nenhuma mudança ou arquivo novo/deletado, não há nada para comm
 ```bash
     git checkout styles.css
     Updated 1 path from the index
-​
+​    ```
 - Em seguida verifique o estado do repositório.
 ```bash
     git status
